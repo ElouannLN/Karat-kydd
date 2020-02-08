@@ -19,6 +19,7 @@ body
 {
   color: red;
   font-size: 60px;
+  transition: 3s;
 }
 
 .cube div
