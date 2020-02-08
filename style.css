@@ -1,9 +1,18 @@
 body
 {
   background-color: blue;
+  perspective: 500px;
 }
 
 .cube
 {
 
+}
+
+.cube div
+{
+  width: 5em;
+  height: 5em;
+  background-color: grey;
+  border: 1px black solid;
 }
