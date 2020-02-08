@@ -36,6 +36,19 @@ body
   height: 50vh;
 }
 
+nav.MenuCube ul li
+{
+  display: inline-flex;
+  text-shadow: purple 3px 3px;
+  color: red;
+}
+
+.LienIvan
+{
+font-size: 40px
+
+}
+
 .cube
 {
   width: 5em;
