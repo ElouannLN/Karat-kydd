@@ -1,7 +1,7 @@
 body
 {
-  background-color: blue;
   perspective: 500px;
+  transform-style: preserve-3d;
 }
 
 .Titre
@@ -22,10 +22,65 @@ body
   transition: 10s;
 }
 
-.cube div
+.groupe
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transform-style: preserve-3d;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 50vh;
+}
+
+.cube
 {
   width: 5em;
   height: 5em;
+  transform-style: preserve-3d;
+  transition: 5s;
+}
+
+.cube div
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-color: grey;
   border: 1px black solid;
+  transform-style: preserve-3d;
+  opacity: 0.8;
+}
+
+.cube .avant
+{
+  transform: translateX(0) translateZ(5em) rotateY(0deg);
+}
+
+.cube .droite
+{
+  transform: translateX(2.5em) translateZ(2.5em) rotateY(90deg);
+}
+
+.cube .gauche
+{
+  transform: translateX(-2.5em) translateZ(2.5em) rotateY(90deg);
+}
+
+.cube .arriere
+{
+  transform: translateX(0) translateZ(5em) rotateY(0deg);
+}
+
+.cube .haut
+{
+  transform: translateY(-2.5em) translateZ(2.5em) rotateX(90deg);
+}
+
+.cube .bas
+{
+  transform: translateY(2.5em) translateZ(2.5em) rotateX(90deg);
 }
