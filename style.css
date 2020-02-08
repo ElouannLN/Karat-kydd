@@ -2,3 +2,20 @@ body
 {
   background-color: blue;
 }
+
+.Titre
+{
+  color: gold;
+}
+
+.Refrain
+{
+  color: gold;
+  padding-left: 60px;
+}
+
+.facebook
+{
+  color: red;
+  font-size: 60px;
+}
