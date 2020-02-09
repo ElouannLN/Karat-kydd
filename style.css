@@ -39,7 +39,7 @@ body
 nav.MenuCube ul li
 {
   display: inline-flex;
-  text-shadow: purple 3px 3px;
+  text-shadow: purple 3px px;
   color: red;
 }
 
