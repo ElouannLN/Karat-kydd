@@ -1,4 +1,4 @@
-for(var i = 0;i < 20;i++)
+for(var i = 0;i < 64;i++)
 {
   document.querySelector(".groupe").appendChild(document.querySelector(".cube").cloneNode(true));
 }
@@ -6,9 +6,12 @@ for(var i = 0;i < 20;i++)
 var lesCubes = document.querySelectorAll(".cube");
 for (var i = 0; i < lesCubes.length; i++)
 {
-  lesCubes[i].addEventListener("click",function(e){
-    e.currentTarget.style.transform = "translateZ(20em)";
-  });
+  lesCubes[i].addEventListener("mouseover",function(e){
+    e.currentTarget.style.transform = "translateZ(20em) rotateX(500deg)";
+setTimeout(function () {
+  e.currentTarget.style.transform = "translateZ(0em) rotateX(0deg)"
+}, 10000);
+});
 }
 
 function nombreAleatoire(min,max)
@@ -18,7 +21,9 @@ function nombreAleatoire(min,max)
   return aleatoire;
 }
 
-function mouvementCube(){
+
+
+/*function mouvementCube(){
   setInterval(function(){
     for (var i = 0; i < lesCubes.length; i++)
     {
@@ -28,4 +33,4 @@ function mouvementCube(){
   },3000);
 }
 
-mouvementCube();
+mouvementCube();*/

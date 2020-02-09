@@ -1,6 +1,6 @@
 body
 {
-  perspective: 500px;
+  perspective: 750px;
   transform-style: preserve-3d;
 }
 
@@ -36,6 +36,12 @@ body
   height: 50vh;
 }
 
+.Wow
+{
+  text-align:center;
+}
+
+
 nav.MenuCube ul li
 {
   display: inline-flex;
@@ -45,7 +51,7 @@ nav.MenuCube ul li
 
 .LienIvan
 {
-font-size: 40px
+font-size: 40px;
 
 }
 
