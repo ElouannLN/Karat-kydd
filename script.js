@@ -9,7 +9,6 @@
   lesCubes[i].addEventListener("mouseover",function(e){
   e.currentTarget.style.transform = "translateZ(20em) rotateX(500deg)";
   setTimeout(function () {
-    alert("fgdfg");
   e.currentTarget.style.transform = "translateZ(0em) rotateX(0deg)"; }, 3000);
   });
   }
@@ -21,7 +20,7 @@
   return aleatoire;
   }
 
-function mouvementCube() {
+/*function mouvementCube() {
   setInterval(function() {
     for (var i = 0; i < lesCubes.length; i++) {
       var em = nombreAleatoire(-20, 10);
@@ -30,4 +29,4 @@ function mouvementCube() {
   }, 3000);
 }
 
-  mouvementCube();
+  mouvementCube();*/
