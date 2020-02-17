@@ -1,29 +1,24 @@
-body
-{
+body {
   perspective: 750px;
   transform-style: preserve-3d;
 }
 
-.Titre
-{
+.Titre {
   color: gold;
 }
 
-.Refrain
-{
+.Refrain {
   color: gold;
   padding-left: 60px;
 }
 
-.facebook
-{
+.facebook {
   color: red;
   font-size: 60px;
   transition: 10s;
 }
 
-.groupe
-{
+.groupe {
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -36,35 +31,28 @@ body
   height: 50vh;
 }
 
-.Wow
-{
-  text-align:center;
+.Wow {
+  text-align: center;
 }
 
-
-nav.MenuCube ul li
-{
+nav.MenuCube ul li {
   display: inline-flex;
   text-shadow: purple 3px px;
   color: red;
 }
 
-.LienIvan
-{
-font-size: 40px;
-
+.LienIvan {
+  font-size: 40px;
 }
 
-.cube
-{
+.cube {
   width: 5em;
   height: 5em;
   transform-style: preserve-3d;
   transition: 5s;
 }
 
-.cube div
-{
+.cube div {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -74,32 +62,26 @@ font-size: 40px;
   opacity: 0.8;
 }
 
-.cube .avant
-{
+.cube .avant {
   transform: translateX(0) translateZ(5em) rotateY(0deg);
 }
 
-.cube .droite
-{
+.cube .droite {
   transform: translateX(2.5em) translateZ(2.5em) rotateY(90deg);
 }
 
-.cube .gauche
-{
+.cube .gauche {
   transform: translateX(-2.5em) translateZ(2.5em) rotateY(90deg);
 }
 
-.cube .arriere
-{
+.cube .arriere {
   transform: translateX(0) translateZ(5em) rotateY(0deg);
 }
 
-.cube .haut
-{
+.cube .haut {
   transform: translateY(-2.5em) translateZ(2.5em) rotateX(90deg);
 }
 
-.cube .bas
-{
+.cube .bas {
   transform: translateY(2.5em) translateZ(2.5em) rotateX(90deg);
 }
